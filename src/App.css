@@ -1,0 +1,38 @@
+/* UserList.css */
+
+/* Container styles */
+div {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Title styles */
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px; /* Add some space below the title */
+}
+
+/* List styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 18px;
+  margin: 8px 0;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #333; /* Text color for list items */
+  transition: background-color 0.3s, color 0.3s; /* Add smooth transitions */
+}
+
+/* Hover effect for list items */
+li:hover {
+  background-color: #007bff; /* Change background color on hover */
+  color: #fff; /* Change text color on hover */
+  cursor: pointer;
+}
